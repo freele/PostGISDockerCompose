@@ -1,0 +1,10 @@
+postgis:
+  image: kartoza/postgis
+  container_name: postgis
+  hostname: postgis
+  # volumes:
+  #   - ./configs/redis-cluster.conf:/etc/redis.conf:ro
+  ports:
+    - "25432:5432"
+  expose:
+    - "25432"
