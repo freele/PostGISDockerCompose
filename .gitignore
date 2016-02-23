@@ -25,6 +25,5 @@ debug
 *.rdb
 
 .idea
-development.yml
 .vagrant
 *.pcap

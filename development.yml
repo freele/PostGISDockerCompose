@@ -1,0 +1,6 @@
+postgis:
+  image: kartoza/postgis
+  container_name: postgis
+  hostname: postgis
+  volumes:
+    - ./pg_hba.conf:/etc/postgresql/9.4/main/pg_hba.conf
